@@ -1,0 +1,144 @@
+h1 {
+	text-align:center;
+}
+@media(min-width:992px){
+.s1 {
+	float:left;
+	width:30%;
+	height:150px;
+	border:1px solid black;
+	background-color:gray;
+	box-sizing:border-box;
+	margin:10px;
+}
+.insideS1{
+	padding:1px;
+	float:right;
+	background-color:pink;
+	border:1px solid black;
+}
+.s2{
+	float:left;
+	width:30%;
+	height:150px;
+	border:1px solid black;
+	background-color:gray;
+	box-sizing:border-box;
+	margin:10px;
+}
+.insideS2{
+	padding:2px;
+	float:right;
+	background-color:red;
+	border:1px solid black;
+}
+.s3{
+	float:left;
+	width:30%;
+	height:150px;
+	border:1px solid black;
+	background-color:gray;
+	box-sizing:border-box;
+	margin:10px;
+}
+.insideS3{
+	padding:2px;
+	float:right;
+	background-color:green;
+	border:1px solid black;
+}
+}
+@media(min-width:768px) and (max-width:991px){
+.s1 {
+	float:left;
+	width:47%;
+	height:150px;
+	border:1px solid black;
+	background-color:gray;
+	box-sizing:border-box;
+	margin:10px;
+}
+.insideS1{
+	padding:1px;
+	float:right;
+	background-color:pink;
+	border:1px solid black;
+}
+.s2{
+	float:left;
+	width:47%;
+	height:150px;
+	border:1px solid black;
+	background-color:gray;
+	box-sizing:border-box;
+	margin:10px;
+}
+.insideS2{
+	padding:2px;
+	float:right;
+	background-color:red;
+	border:1px solid black;
+}
+.s3{
+	float:left;
+	width:96%;
+	height:150px;
+	border:1px solid black;
+	background-color:gray;
+	box-sizing:border-box;
+	margin:10px;
+}
+.insideS3{
+	padding:2px;
+	float:right;
+	background-color:green;
+	border:1px solid black;
+}
+}
+@media(max-width:767px){
+.s1 {
+	float:left;
+	width:95%;
+	height:150px;
+	border:1px solid black;
+	background-color:gray;
+	box-sizing:border-box;
+	margin:10px;
+}
+.insideS1{
+	padding:1px;
+	float:right;
+	background-color:pink;
+	border:1px solid black;
+}
+.s2{
+	float:left;
+	width:95%;
+	height:150px;
+	border:1px solid black;
+	background-color:gray;
+	box-sizing:border-box;
+	margin:10px;
+}
+.insideS2{
+	padding:2px;
+	float:right;
+	background-color:red;
+	border:1px solid black;
+}
+.s3{
+	float:left;
+	width:95%;
+	height:150px;
+	border:1px solid black;
+	background-color:gray;
+	box-sizing:border-box;
+	margin:10px;
+}
+.insideS3{
+	padding:2px;
+	float:right;
+	background-color:green;
+	border:1px solid black;
+}
+}
