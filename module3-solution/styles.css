@@ -14,16 +14,40 @@ body{
 	border: 1px solid black;
 	margin: 10px;
 }
-#nav-list {
-	margin-top:10px;
+@media(max-width:767px){
+.Menu {
+	position:absolute;
+	top:10px;
+	right:20px;
 }
-#nav-list a{
-	color:#951C49;
+.CH {position: absolute;
+	left:5px;
+	box-sizing:border-box;
+	width:100%;
+	font-size:30px;
 	text-align:center;
+	background-color:purple;
+	border-bottom: 2px solid black;
 }
-#nav-list a:hover{
-	background: #E7E7E7;
+.BE{position:absolute;
+	left:5px;
+	top:125px;
+	box-sizing:border-box;
+	width:100%;
+	font-size:30px;
+	text-align:center;
+	background-color:purple;
+	border-bottom: 2px solid black;
 }
-#nav-list a span{
-	font-size:1.8em;
+.SU{position:absolute;
+	left:5px;
+	top:172px;
+	float:left;
+	box-sizing:border-box;
+	width:100%;
+	font-size:30px;
+	text-align:center;
+	background-color:purple;
+	border-bottom: 2px solid black;
+}
 }
